@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hero_text{
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+.hero_text_big{
+    font-family: 'Shippori Mincho', serif;
+}

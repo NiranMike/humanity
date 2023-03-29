@@ -1,0 +1,3 @@
+type NavLinks = {
+    link: string
+}
