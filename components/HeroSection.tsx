@@ -10,14 +10,21 @@ const HeroSection = () => {
         alt="Background Image"
         fill
       />
-        <div className="z-10  ">
+        <div className="z-10   ">
             <h1 className='hero_text text-white font-normal text-[50px]'>Need Help...</h1>
             <p className="hero_text_big text-white md:text-[70px] font-extrabold">Being Life Saver</p>
             <p className="hero_text_big text-white md:text-[70px] font-extrabold">For Someone</p>
         </div>
-        <div className=' flex divider'>
-            <div className='w-3 h-3 z-10 bg-white rounded-full'></div>
+        <div className=' z-10 items-center flex md:max-w-[520px]'>
+            <div className='w-3 h-3 bg-white rounded-full'></div>
+            <div className='h-[1px] md:w-[310px] bg-white'></div>
+            <div className="border px-2 py-2 flex-1 rounded-full text-white">BELOW POVERTY LINE</div>
         </div>
+      <div className='z-10 flex gap-4'>
+          <button className='py-3 px-6 text-white font-medium bg-[#FF6D6D] rounded-full'>Donate</button>
+          <button className='py-3 px-6  font-medium bg-white rounded-full'>Discover</button>
+      </div>
+        
         
     </div>
   )
