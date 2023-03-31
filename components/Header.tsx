@@ -5,7 +5,7 @@ import logo from "../Assets/images/Logo.png"
 
 const Header = () => {
   return (
-    <div className=' py-4 text-[#2E4049] px-20 flex justify-between'>
+    <nav className=' py-4 text-[#2E4049] px-20 flex justify-between'>
         <img src={logo.src} 
         alt="logo" />
         <div className='flex items-center gap-8 divide-x-2'>
@@ -19,7 +19,7 @@ const Header = () => {
             <p className='pl-3 cursor-pointer font-medium'>Contact</p>
             <button className='bg-[#FF6D6D] border-none text-white py-4 px-7 text-[18px] font-medium rounded-[34px]'>DONATE</button>
         </div>
-    </div>
+    </nav>
   )
 }
 

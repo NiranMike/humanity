@@ -3,7 +3,7 @@ import heroBg from "../Assets/images/heroBg.png"
 
 const HeroSection = () => {
   return (
-    <div className='md:px-[210px] h-screen relative flex-col my-auto flex justify-center'>
+    <section className='md:px-[210px] h-screen relative flex-col my-auto flex justify-center'>
         <Image
         className='backg object-cover'
         src={heroBg}
@@ -20,13 +20,13 @@ const HeroSection = () => {
             <div className='h-[1px] md:w-[310px] bg-white'></div>
             <div className="border px-2 py-2 flex-1 rounded-full text-white">BELOW POVERTY LINE</div>
         </div>
-      <div className='z-10 flex gap-4'>
-          <button className='py-3 px-6 text-white font-medium bg-[#FF6D6D] rounded-full'>Donate</button>
-          <button className='py-3 px-6  font-medium bg-white rounded-full'>Discover</button>
+      <div className='z-10 flex gap-4 '>
+          <button className='py-3 hero_text_big px-6 text-white font-normal bg-[#FF6D6D] rounded-full'>Donate</button>
+          <button className='py-3 hero_text_big px-6  font-normal bg-white rounded-full'>Discover</button>
       </div>
         
         
-    </div>
+    </section>
   )
 }
 
