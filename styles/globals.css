@@ -6,6 +6,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .hero_text_sm{
+      @apply hero_text text-[#FF6D6D] font-normal text-[20px] md:text-[35px]
+    }
+    .big_btn{
+        @apply py-3 px-6 rounded-full text-[14px]
+    }
+    .text_shippori{
+        @apply hero_text_big text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-[#2E4049]
+    }
+}
+
 *{
     font-family: 'Work Sans', sans-serif;
 }

@@ -4,7 +4,7 @@ import vid from "../Assets/images/Video.png"
 
 const HeroCard = () => {
   return (
-    <div className=' lg:flex absolute  mx-[210px] hidden lg:top-[650px]  z-20'>
+    <div className=' xl:flex absolute mx-[210px] hidden xl:top-[670px] 2xl:top-[1300px] lg:top-[650px]  z-20'>
         <div className=' flex-1  px-6 bg-[#77D7D3] '>
           <div className='mt-4'>
             <p className='hero_text_big text-2xl font-extrabold'>Education</p>
