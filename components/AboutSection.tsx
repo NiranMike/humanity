@@ -52,8 +52,8 @@ const AboutSection = () => {
                </div>
                <div className='space-y-2 mb-5'>
                     <p className='hero_text_big  text-[#2E4049] text-[25px] font-extrabold'>Total Donation</p>
-                    <div className='bg-[#C5CECC] relative rounded-full py-[3px]'>
-                        <div className='bg-[#FF6D6D] absolute top-0 rounded-full h-[100%] w-[75%]'></div>
+                    <div className='progress_container'>
+                        <div className='progress'></div>
                     </div>
                     <div className='flex justify-between  hero_text_big text-[20px]'>
                         <p className='font-bold text-[#2E4049] hero_text_big'>Collection - $5M</p>

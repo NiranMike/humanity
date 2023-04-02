@@ -16,6 +16,12 @@
     .text_shippori{
         @apply hero_text_big text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-[#2E4049]
     }
+    .progress_container{
+        @apply bg-[#C5CECC] relative rounded-full py-[3px]
+    }
+    .progress{
+        @apply bg-[#FF6D6D] absolute top-0 rounded-full h-[100%] w-[75%]
+    }
 }
 
 *{
