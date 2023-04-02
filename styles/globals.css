@@ -22,10 +22,15 @@
     .progress{
         @apply bg-[#FF6D6D] absolute top-0 rounded-full h-[100%] w-[75%]
     }
+    
 }
 
 *{
     font-family: 'Work Sans', sans-serif;
+}
+
+#content{
+    scroll-behavior: smooth;
 }
 
 .hero_text{

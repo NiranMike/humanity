@@ -1,8 +1,23 @@
-import cardImg from "../Assets/images/ci1.png"
-import Image from "next/image"
+"use client"
+
+import { FiChevronRight, FiChevronLeft } from "react-icons/fi"
 import CardCause from "./CardCause"
 
 const OurCause = () => {
+
+  const scrollRight = () =>{
+    const contentEl = document.getElementById("content");
+    if (contentEl != null) {
+      contentEl.scrollLeft += 300;
+    }
+  } 
+
+  const scrollLeft = () =>{
+    const contentEl = document.getElementById("content");
+    if (contentEl != null) {
+      contentEl.scrollLeft -= 300;
+    }
+  } 
   return (
     <section className="bg-[#F1EEEC] carou overflow-x-auto py-[30px] lg:py-[60px] ">
         <div>
@@ -12,12 +27,28 @@ const OurCause = () => {
             <button className="big_btn bg-[#FF6D6D] text-white">MORE</button>
           </div>
       </div>
-      <div className='flex pr-9 ml-2 overflow-x-auto gap-4 my-10 md:ml-[100px] lg:ml-[100px] xl:ml-[210px] 2xl:ml-[270px]'>
-        <CardCause />
-        <CardCause />
-        <CardCause />
-        <CardCause />
+      <div>
+        <div id="content" className='flex pr-9 ml-2 scrollbar-hide overflow-x-auto gap-4 my-10 md:ml-[100px] lg:ml-[100px] xl:ml-[210px] 2xl:ml-[270px]'>
+          <CardCause />
+          <CardCause />
+          <CardCause />
+          <CardCause />
+          <CardCause />
+          <CardCause />
+          <CardCause />
+          <CardCause />
+        </div>
       </div>
+      <div className="px-3 flex md:mx-[100px] justify-between lg:mx-[100px] xl:mx-[210px] 2xl:mx-[270px]">
+        <button onClick={scrollLeft} className='p-2 m-2 rounded-full bg-white'>
+          <FiChevronLeft />
+        </button>
+
+        <button onClick={scrollRight} className='p-2 m-2 rounded-full bg-white'>
+          <FiChevronRight />
+        </button>
+      </div>
+      
         
     </section>
   )

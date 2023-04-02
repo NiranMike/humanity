@@ -1,10 +1,13 @@
-import cardImg from "../Assets/images/ci1.png"
+import cardImg from "../Assets/images/cause2.png"
 import Image from "next/image"
 
 const CardCause = () => {
   return (
     <div className=''>
-          <div className='md:w-[280px]  w-[240px]  bg-white'>
+          <div className='md:w-[280px] relative w-[240px]  bg-white'>
+            <div className=" bg-white z-10">
+                <p className='text-[#FF6D6D] m-2 bg-white py-[2px] px-2 absolute top-0 z-10'>85%</p>
+            </div>
             <Image 
             src={cardImg}
             className="md:h-[280px] h-[180px] object-cover"
