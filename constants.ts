@@ -1,38 +1,57 @@
+
 export const causeData: CauseProp[] = [
     {
-        image: "./public/img/cause1.png",
+        image: "/cause1.png",
         description: "Big charity: build school for poor children",
         donation: "$5,000/$12,000",
-        percentage:85
+        percentage:50,
+        raised:5,
+        goal:10,
+        percentageStyle:"w-[50px]"
     },
     {
-        image: "./public/img/cause2.png",
+        image: "/cause2.png",
         description: "First charity activity of this summer today",
         donation: "$5,000/$12,000",
-        percentage:85
+        percentage:30,
+        raised:3,
+        goal:10,
+        percentageStyle:"w-[30px]"
     },
     {
-        image: "./public/img/cause3.png",
+        image: "/cause3.png",
         description: "Helping the Homeless During the Holidays",
         donation: "$5,000/$12,000",
-        percentage:85
+        percentage:50,
+        raised:5,
+        goal:10,
+        percentageStyle:"w-[50px]"
     },
     {
-        image: "./public/img/cause4.png",
+        image: "/cause4.png",
         description: "Providing access to safe water, sanitation and hygiene",
         donation: "$5,000/$12,000",
-        percentage:85
+        percentage:50,
+        raised:5,
+        goal:10,
+        percentageStyle:"w-[50px]"
     },
     {
-        image: "./public/img/cause5.png",
+        image: "/cause5.png",
         description: "San Francisco is officially the first city to ban plastic",
         donation: "$5,000/$12,000",
-        percentage:85
+        percentage:85,
+        raised:8.5,
+        goal:10,
+        percentageStyle:"w-[85px]"
     },
     {
-        image: "./public/img/cause6.png",
+        image: "/cause6.png",
         description: "Big charity: build school for poor children",
         donation: "$5,000/$12,000",
-        percentage:85
+        percentage:80,
+        raised:8,
+        goal:10,
+        percentageStyle:"w-[80px]"
     },
 ]

@@ -1,5 +1,6 @@
 "use client"
-import {causeData} from "../constants"
+import { causeData } from "../constants"
+import mydata from '../data.json'
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi"
 import CardCause from "./CardCause"
 
@@ -30,8 +31,9 @@ const OurCause = () => {
       <div>
         <div id="content" className='flex pr-9 ml-2 scrollbar-hide overflow-x-auto gap-4 my-10 md:ml-[100px] lg:ml-[100px] xl:ml-[210px] 2xl:ml-[270px]'>
           {
-            causeData.map((data, index) => {
-              const {image, description, percentage, donation} = data
+            causeData?.map((data, index) => {
+              const { image, description, percentage, donation, raised, goal, percentageStyle } = data
+              
               return(
                 <CardCause 
                 key={index} 
@@ -39,6 +41,9 @@ const OurCause = () => {
                 description={description}
                 percentage={percentage}
                 donation={donation}
+                raised={raised}
+                goal={goal}
+                percentageStyle={percentageStyle}
                 />
               )
             })

@@ -1,6 +1,9 @@
 type CauseProp = {
-    image: string | null;
+    image: string;
     description: string;
     donation: string;
     percentage: number;
+    raised: number;
+    goal: number;
+    percentageStyle: string;
 }
