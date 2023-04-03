@@ -1,5 +1,5 @@
 type CauseProp = {
-    image: string;
+    image: string | StaticImport;
     description: string;
     donation: string;
     percentage: number;
