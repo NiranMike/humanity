@@ -1,3 +1,0 @@
-type NavLinks = {
-    link: string
-}

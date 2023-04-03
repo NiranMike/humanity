@@ -1,7 +1,13 @@
 import cardImg from "../Assets/images/cause2.png"
 import Image from "next/image"
 
-const CardCause = () => {
+type Props = {
+  image: string | null;
+  description: string;
+  percentage: number;
+  donation: string;
+}
+const CardCause = ({image, description, percentage, donation}:Props) => {
   return (
     <div className=''>
           <div className='md:w-[280px] relative w-[240px]  bg-white'>
