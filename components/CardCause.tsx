@@ -17,7 +17,6 @@ type Props = {
             <div className=" bg-white z-10">
                 <p className='text-[#FF6D6D] m-2 bg-white py-[2px] px-2 absolute top-0 z-10'>{`${percentage}%`}</p>
             </div>
-            <div>
               <Image 
               src={`${image}`}
               className="md:h-[280px] z-10 h-[180px] object-cover"
@@ -25,7 +24,6 @@ type Props = {
               height={100}
               width={500}
             />
-            </div>
             
             <div className='p-3'>
               <p>{description}</p>
