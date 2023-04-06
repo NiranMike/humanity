@@ -9,11 +9,11 @@ import Contract from "../Assets/images/Contract.png"
 
 const WhatWeDo = () => {
   return (
-    <section className='flex flex-col items-center justify-center mx-auto lg:mx-[200px] my-14'>
+    <section className='sectionContainer'>
           <div className="space-y-9">
               <div className='text-center'>
                   <p className="hero_text_sm text-[#FF6D6D]">What we do</p>
-                  <p className='hero_text_big text-center text-[#2E4049] text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold'>We do it for Poeple in Need</p>
+                  <p className='sectionHeader'>We do it for Poeple in Need</p>
               </div>
               <div className='grid gap-5 lg:grid-cols-3'>
                   <div className="flex flex-col items-center justify-center">

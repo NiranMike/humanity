@@ -14,7 +14,7 @@ const HelpSection = () => {
         fill
         className=' '
         />
-        <div className='grid lg:grid-cols-2 gap-9 items-center h-screen z-10 my-auto justify-center'>
+        <div className='grid xl:grid-cols-2 gap-9 items-center h-screen z-10 my-auto justify-center'>
             <div className='z-20 space-y-4'>
                 <p className='hero_text_sm z-20 text-white'>How We Help</p>
                 <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white'>Join The CommunityTo Give Education For Children</p>
@@ -28,7 +28,7 @@ const HelpSection = () => {
                 />
                 <button className='bg-[#FF6D6D] text-white big_btn' >DONATE NOW</button>
             </div>
-            <div className='border hidden lg:block py-7 z-20 border-white px-10'>
+            <div className='border hidden xl:block py-7 z-20 border-white px-10'>
               <p className='hero_text_big pb-5 text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white'>Become A Volunteer</p>
               <form className='grid gap-5'>
                   <input className='border w-full bg-transparent border-white p-3' type='text' placeholder="Full Name*"/>

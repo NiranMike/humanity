@@ -6,6 +6,7 @@ import OurCause from "@/components/OurCause"
 import HelpSection from "@/components/HelpSection"
 import WhatWeDo from "@/components/WhatWeDo"
 import WhatWeDid from "@/components/WhatWeDid"
+import TestimonialSection from "@/components/TestimonialSection"
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <HelpSection />
         <WhatWeDo />
         <WhatWeDid />
+        <TestimonialSection />
     </div>
   )
 }

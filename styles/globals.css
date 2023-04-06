@@ -22,6 +22,12 @@
     .progress{
         @apply bg-[#FF6D6D] absolute top-0 rounded-full h-[100%] w-[75%]
     }
+    .sectionHeader{
+        @apply hero_text_big text-center text-[#2E4049] text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold
+    }
+    .sectionContainer{
+        @apply flex flex-col items-center justify-center mx-auto lg:mx-[200px] my-14
+    }
     
 }
 

@@ -50,8 +50,8 @@ const WhatWeDid = () => {
                     className='object-cover w-[50%]'
                 />
             </div>
-            <div className='flex flex-col lg:flex-row'>
-                <div className='bg-[#FF6D6D] flex flex-col lg:w-[50%] justify-end px-9 py-9'>
+            <div className='flex flex-col md:flex-row'>
+                <div className='bg-[#FF6D6D] flex flex-col md:w-[50%] justify-end px-9 py-9'>
                     <div className='flex gap-2 '>
                         <p className='py-2 px-3 rounded-full bg-[#120d0d25] text-white'>Education</p>
                         <p className='py-2 px-3 rounded-full bg-[#120d0d25] text-white'>Health</p>
@@ -63,7 +63,7 @@ const WhatWeDid = () => {
                     alt={''}
                     width={0}
                     height={0}
-                    className='object-cover lg:w-[50%]'
+                    className='object-cover md:w-[50%]'
                 />
             </div>
     </div>
