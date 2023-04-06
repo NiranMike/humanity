@@ -30,11 +30,12 @@ const HelpSection = () => {
             </div>
             <div className='border hidden lg:block py-7 z-20 border-white px-10'>
               <p className='hero_text_big pb-5 text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white'>Become A Volunteer</p>
-              <form className='flex flex-col gap-5'>
+              <form className='grid gap-5'>
                   <input className='border w-full bg-transparent border-white p-3' type='text' placeholder="Full Name*"/>
                   <input className='border w-full bg-transparent border-white p-3' type='email' placeholder="Email Address*"/>
                   <input className='border w-full bg-transparent border-white p-3' type='phone' placeholder="Phone Number*"/>
-                  <textarea />
+                  <textarea placeholder='Message*' className='bg-transparent p-3 h-[150px] border' />
+                  <button className='text-black bg-white big_btn'>Submit</button>
               </form>
             </div>
         </div>
