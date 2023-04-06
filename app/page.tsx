@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection"
 import OurCause from "@/components/OurCause"
 import HelpSection from "@/components/HelpSection"
 import WhatWeDo from "@/components/WhatWeDo"
+import WhatWeDid from "@/components/WhatWeDid"
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <OurCause />
         <HelpSection />
         <WhatWeDo />
+        <WhatWeDid />
     </div>
   )
 }
