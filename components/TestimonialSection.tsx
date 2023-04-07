@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import man1 from "../Assets/images/m3.png";
+import man2 from "../Assets/images/w2.png";
 
 const TestimonialSection = () => {
   return (
@@ -38,7 +39,7 @@ const TestimonialSection = () => {
                 </div>
                 <div className='flex p-3 flex-col sm:p-3 sm:flex-row mx-auto bg-[#ECF1F0] justify-center items-center gap-3'>
                     <Image 
-                      src={man1}
+                      src={man2}
                       alt={""}
                       width={0}
                       height={0}
@@ -47,8 +48,8 @@ const TestimonialSection = () => {
                     <div>
                         <div className='flex justify-between'>
                             <div className='px-3'>
-                                <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Belli Smith</p>
-                                <p className=' font-normal text-[#727272] mb-4'>Designer</p>
+                                <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Sara Taylor</p>
+                                <p className=' font-normal text-[#727272] mb-4'>Donator</p>
                             </div>
                             <Image 
                             src={""}
@@ -61,6 +62,24 @@ const TestimonialSection = () => {
 
                     </div>
                 </div>
+            </div>
+              <div className='grid gap-5 xl:grid-cols-4'>
+                  <div className=''>
+                    <p className='hero_text_big text-center text-[#2E4049] text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold'>200k</p>
+                    <p className='font-normal text-center text-[#727272]'>Received Donations From Our People</p>
+                  </div>
+                  <div className=''>
+                    <p className='hero_text_big text-center text-[#2E4049] text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold'>99k</p>
+                    <p className='font-normal text-center text-[#727272]'> Projects Done With The Help Of Donators</p>
+                  </div>
+                  <div className=''>
+                    <p className='hero_text_big text-center text-[#2E4049] text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold'>200k</p>
+                    <p className='font-normal text-center text-[#727272]'>People We Helped on 2020</p>
+                  </div>
+                  <div className=''>
+                    <p className='hero_text_big text-center text-[#2E4049] text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold'>10.7k</p>
+                    <p className='font-normal text-center text-[#727272]'>With Our Volunteers We’ve Solved Many Causes</p>
+                  </div>
             </div>
         </div>
     </section>
