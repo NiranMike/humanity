@@ -7,6 +7,8 @@ import HelpSection from "@/components/HelpSection"
 import WhatWeDo from "@/components/WhatWeDo"
 import WhatWeDid from "@/components/WhatWeDid"
 import TestimonialSection from "@/components/TestimonialSection"
+import VolunteerSection from "@/components/VolunteerSection"
+
 
 
 const Home = () => {
@@ -21,6 +23,7 @@ const Home = () => {
         <WhatWeDo />
         <WhatWeDid />
         <TestimonialSection />
+        <VolunteerSection />
     </div>
   )
 }
