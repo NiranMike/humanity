@@ -9,6 +9,7 @@ const HeroSection = () => {
         src={heroBg}
         alt="Background Image"
         fill
+        priority
       />
         <div className='flex-col 2xl:items-center h-screen z-10 my-auto flex justify-center'>
           <div className="  z-10 ">

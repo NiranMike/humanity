@@ -10,14 +10,14 @@ const TestimonialSection = () => {
                 <p className="hero_text_sm text-[#FF6D6D]">Testimonial</p>
                 <p className='sectionHeader'>What People Say About Us</p>
             </div>
-            <div className='flex flex-col xl:flex-row mx-4 gap-5'>
-                <div className='flex flex-col sm:flex-row bg-[#ECF1F0] p- justify-center items-center gap-5'>
+            <div className='flex flex-col  xl:flex-row sm:mx-4 gap-5'>
+                <div className='flex p-3 flex-col sm:p-3 sm:flex-row bg-[#ECF1F0] justify-center items-center gap-3'>
                     <Image 
                       src={man1}
                       alt={""}
                       width={0}
                       height={0}
-                      className='w-full object-cover'
+                      className='sm:w-full w-full  object-cover'
                     />
                     <div>
                         <div className='flex justify-between'>
@@ -36,13 +36,13 @@ const TestimonialSection = () => {
 
                     </div>
                 </div>
-                <div className='flex flex-col sm:flex-row bg-[#ECF1F0] p- justify-center items-center gap-5'>
+                <div className='flex p-3 flex-col sm:p-3 sm:flex-row mx-auto bg-[#ECF1F0] justify-center items-center gap-3'>
                     <Image 
                       src={man1}
                       alt={""}
                       width={0}
                       height={0}
-                      className='w-full object-cover'
+                      className='sm:w-full w-full  object-cover'
                     />
                     <div>
                         <div className='flex justify-between'>

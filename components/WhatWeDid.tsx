@@ -63,7 +63,7 @@ const WhatWeDid = () => {
                     alt={''}
                     width={0}
                     height={0}
-                    className='object-cover md:w-[50%]'
+                    className='object-cover w-full md:w-[50%]'
                 />
             </div>
     </div>
