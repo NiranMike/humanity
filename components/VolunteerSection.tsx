@@ -8,8 +8,8 @@ import {BsFacebook, BsTwitter, BsPinterest} from "react-icons/bs"
 
 const VolunteerSection = () => {
   return (
-      <section className='sectionContainer'>
-          <div className='space-y-9'>
+      <section className=' bg-[#F1EEEC]'>
+          <div className='space-y-9 sectionContainer py-10'>
             <div className='text-center'>
                 <p className="hero_text_sm text-[#FF6D6D]">Team</p>
                 <p className='sectionHeader'>Meet Our Volunteers</p>
@@ -59,7 +59,7 @@ const VolunteerSection = () => {
                       alt={""}
                       width={0}
                       height={0}
-                      className='sm:w-full w-full  object-cover'
+                      className='sm:w-full w-full object-cover'
                     />
                     <div className='flex flex-col mt-2 gap-3 justify-center items-center'>
                         <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Martin Luther</p>

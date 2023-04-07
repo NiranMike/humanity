@@ -8,6 +8,7 @@ import WhatWeDo from "@/components/WhatWeDo"
 import WhatWeDid from "@/components/WhatWeDid"
 import TestimonialSection from "@/components/TestimonialSection"
 import VolunteerSection from "@/components/VolunteerSection"
+import OurEvents from "@/components/OurEvents"
 
 
 
@@ -24,6 +25,7 @@ const Home = () => {
         <WhatWeDid />
         <TestimonialSection />
         <VolunteerSection />
+        <OurEvents />
     </div>
   )
 }
