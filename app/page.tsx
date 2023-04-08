@@ -10,6 +10,7 @@ import TestimonialSection from "@/components/TestimonialSection"
 import VolunteerSection from "@/components/VolunteerSection"
 import OurEvents from "@/components/OurEvents"
 import NewsletterSection from "@/components/NewsletterSection"
+import Footer from "@/components/Footer"
 
 
 
@@ -28,6 +29,7 @@ const Home = () => {
         <VolunteerSection />
         <OurEvents />
         <NewsletterSection />
+        <Footer />
     </div>
   )
 }

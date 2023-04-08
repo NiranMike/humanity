@@ -18,7 +18,7 @@ const NewsletterSection = () => {
             <div className='py-10 space-y-4 px-3 md:px-14 bg-[#77D7D3ED]'>
                 <div className=''>
                     <p className="hero_text_sm text-[#2E4049]">Recent Blog</p>
-                    <p className='hero_text_big  text-[#2E4049] text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold'>Take A LOOK AT RECENT BLOG POSTS</p>
+                    <p className='hero_text_big  text-[#2E4049] text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold'>Take A Look At Recent Blog Posts</p>
                 </div>
                 <button className='bg-[#2E4049] text-white py-3 px-3 rounded-full text-[14px]'>SEE OUR BLOGS</button>
 
