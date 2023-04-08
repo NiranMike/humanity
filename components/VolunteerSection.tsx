@@ -21,11 +21,11 @@ const VolunteerSection = () => {
                       alt={""}
                       width={0}
                       height={0}
-                      className='sm:w-full w-full  object-cover'
+                      className='sm:w-full w-full object-cover'
                     />
-                    <div className='flex flex-col mt-2 gap-3 justify-center items-center'>
+                    <div className='  gap-3 justify-center text-center'>
                         <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Martin Luther</p>
-                        <div className='flex text-[#2E4049] gap-5'>
+                        <div className='flex text-[#2E4049] justify-center items-center gap-5'>
                             <AiOutlineInstagram />
                             <BsFacebook />
                             <BsTwitter />
@@ -40,11 +40,11 @@ const VolunteerSection = () => {
                       alt={""}
                       width={0}
                       height={0}
-                      className='sm:w-full w-full  object-cover'
+                      className='sm:w-full w-full object-cover'
                     />
-                    <div className='flex flex-col mt-2 gap-3 justify-center items-center'>
+                    <div className='  gap-3 justify-center text-center'>
                         <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Martin Luther</p>
-                        <div className='flex text-[#2E4049] gap-5'>
+                        <div className='flex text-[#2E4049] justify-center items-center gap-5'>
                             <AiOutlineInstagram />
                             <BsFacebook />
                             <BsTwitter />
@@ -61,9 +61,9 @@ const VolunteerSection = () => {
                       height={0}
                       className='sm:w-full w-full object-cover'
                     />
-                    <div className='flex flex-col mt-2 gap-3 justify-center items-center'>
+                    <div className='  gap-3 justify-center text-center'>
                         <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Martin Luther</p>
-                        <div className='flex text-[#2E4049] gap-5'>
+                        <div className='flex text-[#2E4049] justify-center items-center gap-5'>
                             <AiOutlineInstagram />
                             <BsFacebook />
                             <BsTwitter />
@@ -71,7 +71,7 @@ const VolunteerSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#77D7D3] flex max-w-[250px] h-[360px] xl:h-[360px] 2xl:h-[350px] flex-col justify-center items-center mx-auto space-y-3 '>
+                <div className='bg-[#77D7D3] flex max-w-[280px] py-6 xl:py-[] flex-col justify-center items-center mx-auto space-y-3 '>
                     <Image 
                       src={hand}
                       alt={""}

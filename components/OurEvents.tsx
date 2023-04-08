@@ -13,8 +13,8 @@ const OurEvents = () => {
             <button className="big_btn bg-[#FF6D6D] text-white">MORE</button>
           </div>
         </div>
-        <div className='sectionContainer grid lg:grid-cols-2 items-center gap-6'>
-            <div className='space-y-4'>
+        <div className='sectionContainer grid lg:grid-cols-2 gap-6'>
+            <div className='space-y-4 mx-3 md:mx-0'>
                 <div>
                     <Image 
                       src={event}
@@ -39,41 +39,41 @@ const OurEvents = () => {
                     <p className='text-[#2E4049]'>Dark Spurt, San Francisco, CA 94528</p>
                 </div>
             </div>
-            <div className='grid gap-3'>
+            <div className='flex flex-col justify-between gap-3 mx-3 md:mx-0'>
                 <div className='flex gap-2'>
-                    <div className='px-4 bg-[#2E4049]'>
-                        <p className="hero_text_big text-[12px] max-w-[660px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white">18</p>
-                        <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-white'>June</p>
+                    <div className='px-4 bg-[#2E4049] flex flex-col justify-center items-center'>
+                        <p className="hero_text_big text-[12px] max-w-[660px] lg:text-[27px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white">18</p>
+                        <p className='hero_text_big text-[20px] lg:text-[27px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-white'>June</p>
                     </div>
                     <div className='space-y-2'>
                         <p className='font-normal text-[#727272]'>Organized By : <span className='text-[#FF6D6D]'>Nattasha</span></p>
-                        <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Healthy Food for Growing</p>
+                        <p className='hero_text_big text-[20px]  xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Healthy Food for Growing</p>
                         <p className='font-normal text-[#727272]'>There are many varieations of passages of injected Lorem Ipsum available.</p>
                     </div>
                 </div>
                 <div className='h-[1px] w-full bg-[#F1EEEC]'></div>
                 
                 <div className='flex gap-2'>
-                    <div className='px-4 bg-[#2E4049]'>
-                        <p className="hero_text_big text-[12px] max-w-[660px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white">18</p>
-                        <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-white'>June</p>
+                    <div className='px-4 bg-[#2E4049] flex flex-col justify-center items-center'>
+                        <p className="hero_text_big text-[12px] max-w-[660px] lg:text-[27px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white">18</p>
+                        <p className='hero_text_big text-[20px] lg:text-[27px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-white'>June</p>
                     </div>
                     <div className='space-y-2'>
                         <p className='font-normal text-[#727272]'>Organized By : <span className='text-[#FF6D6D]'>Nattasha</span></p>
-                        <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Healthy Food for Growing</p>
+                        <p className='hero_text_big text-[20px]  xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Healthy Food for Growing</p>
                         <p className='font-normal text-[#727272]'>There are many varieations of passages of injected Lorem Ipsum available.</p>
                     </div>
                 </div>
                 <div className='h-[1px] w-full bg-[#F1EEEC]'></div>
 
                 <div className='flex gap-2'>
-                    <div className='px-4 bg-[#2E4049]'>
-                        <p className="hero_text_big text-[12px] max-w-[660px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white">18</p>
-                        <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-white'>June</p>
+                    <div className='px-4 bg-[#2E4049] flex flex-col justify-center items-center'>
+                        <p className="hero_text_big text-[12px] max-w-[660px] lg:text-[27px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-white">18</p>
+                        <p className='hero_text_big text-[20px] lg:text-[27px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-white'>June</p>
                     </div>
                     <div className='space-y-2'>
                         <p className='font-normal text-[#727272]'>Organized By : <span className='text-[#FF6D6D]'>Nattasha</span></p>
-                        <p className='hero_text_big text-[20px] lg:text-[35px] xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Healthy Food for Growing</p>
+                        <p className='hero_text_big text-[20px]  xl:text-[25px] 2xl:text-[30px] font-extrabold text-[#2E4049]'>Healthy Food for Growing</p>
                         <p className='font-normal text-[#727272]'>There are many varieations of passages of injected Lorem Ipsum available.</p>
                     </div>
                 </div>
