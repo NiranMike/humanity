@@ -12,7 +12,7 @@ const WhatWeDid = () => {
     <div className='grid lg:grid-cols-2'>
             <div className='py-10 space-y-4 px-14 bg-[#2E4049]'>
                 <div className=''>
-                    <p className="hero_text_sm text-white">What we do</p>
+                    <p className="hero_text_sm text-white">What we did</p>
                     <p className='hero_text_big  text-white text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold'>We do it for Poeple in Need</p>
                 </div>
                 <p className='text-white'>Lorem Ipsum is simply dummy text of the printin typesetting  dummy text ever  when an unknown printer took a galley of type and scrambled  a type specimen book. </p>
