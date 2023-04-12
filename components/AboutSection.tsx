@@ -1,6 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
+"use client"
+import { useRouter } from "next/navigation"
 import tick from "../Assets/images/tick.png"
 const AboutSection = () => {
+    const router = useRouter();
+
+    const aboutBtn = () => {
+        router.push('/about_us');
+    }
   return (
       <section className=" px-3 mb-6 2xl:mt-[80px] mt-[80px] py-10 space-y-5 gap-5 md:mx-[100px] lg:mx-[100px] xl:mx-[210px] 2xl:mx-[270px]  block lg:flex lg:flex-row justify-center items-center ">
           <div className='flex-1 '>
@@ -9,7 +16,7 @@ const AboutSection = () => {
               <h1 className='hero_text_big text-[20px] lg:text-[35px] xl:text-[35px] 2xl:text-[40px] font-extrabold text-[#2E4049]'>Our Main Goals</h1>
               <p className='text-[#727272] text-[15px] 2xl:text-[35px]'>Lorem Ipsum is simply dummy text of the printin typesetting  dummy text ever  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               <p className='text-[#727272] pt-7 pb-4 text-[15px] 2xl:text-[35px]'>It has survived not only five centuries, but also the leap into electronic typesetting, remaining when an unknown printer took a galley of type and scrambled it to make a type specimen book. essentially.</p>
-              <button className='bg-[#FF6D6D] text-white big_btn'>MORE ABOUT</button>
+              <button onClick={aboutBtn} className='bg-[#FF6D6D] text-white big_btn'>MORE ABOUT</button>
           </div>
           <div className='bg-[#ECF1F0] text-[#2E4049] space-y-5 px-8 py-7 mb-[20px] md:py-[70px]'>
                 <div className=" flex-1 gap-3 text-[#727272]   grid grid-cols-2 bg-[#ECF1F0]">
