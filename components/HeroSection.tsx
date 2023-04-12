@@ -27,8 +27,6 @@ const HeroSection = () => {
             <button className='py-3 hero_text_big px-6  font-normal bg-white rounded-full'>Discover</button>
           </div>  
       </div>
-        
-        
     </section>
   )
 }

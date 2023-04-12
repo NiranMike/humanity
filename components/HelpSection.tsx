@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image"
 import bgImage from "../Assets/images/Image.png"
 import help from "../Assets/images/help.png"
-
+  
 const HelpSection = () => {
   
   return (

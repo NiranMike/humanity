@@ -17,7 +17,7 @@ import Footer from "@/components/Footer"
 const Home = () => {
   return (
     <div>
-        <Header />
+        
         <HeroSection />
         {/* <HeroCard /> */}
         <AboutSection />
@@ -29,7 +29,7 @@ const Home = () => {
         <VolunteerSection />
         <OurEvents />
         <NewsletterSection />
-        <Footer />
+      
     </div>
   )
 }
